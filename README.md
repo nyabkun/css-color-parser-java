@@ -1,8 +1,5 @@
 # css-color-parser-java
 
-- deanm/css-color-parser-js
-- mapbox/css-color-parser-cpp
-
 ```java
 package nyab.css;
 
@@ -26,3 +23,8 @@ public class Example {
   }
 }
 ```
+
+## Reference
+
+- https://github.com/deanm/css-color-parser-js
+- https://github.com/mapbox/css-color-parser-cpp
