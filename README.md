@@ -1,8 +1,6 @@
 # css-color-parser-java
 
 ```java
-package nyab.css;
-
 import java.util.Arrays;
 
 import nyab.css.CSSColorParser;
