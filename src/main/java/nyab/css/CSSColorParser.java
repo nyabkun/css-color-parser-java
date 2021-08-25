@@ -105,7 +105,7 @@ public class CSSColorParser {
 	private static float parseCssInt(String str) { // int or percentage.
 		char lastChar = str.charAt(str.length() - 1);
 		if (lastChar == '%') {
-			return clampCssByte( (Float.parseFloat(str)/100.0f * 255));
+			return clampCssByte( (Float.parseFloat(str.substring(0, str.length()-1))/100.0f * 255));
 		} else {
 			return clampCssByte(Integer.parseInt(str));
 		}
